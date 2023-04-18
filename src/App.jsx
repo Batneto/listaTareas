@@ -1,16 +1,14 @@
-
-
-
+import { Container } from "./components/Container"
 function App() {
   
 
   return (
     <>
-      <h1>Lista de Tareas</h1>
+    <header className="ctr wh hdr">
+      <h1>Práctica ToDoList</h1>
+    </header>
+    <Container/>
     </>
-
-
-
   )
 }
 
